@@ -26,12 +26,4 @@
 - Format: Kaggle competition standard
 - Generated: 2025-09-18 11:27:28
 
-## How to Submit
-1. Download submission.csv from outputs folder
-2. Go to Kaggle competition page
-3. Click "Submit Predictions"
-4. Upload submission.csv
-5. Add description: "stacked_lstm - RMSE 91.49"
-6. Submit (max 10 submissions per day)
 
-**Expected Private Leaderboard Score**: ~91 (based on validation performance)
