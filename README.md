@@ -4,33 +4,9 @@ This project implements a comprehensive air quality forecasting system using var
 
 ## Project Structure
 
-air-quality-forecasting/
-├── notebooks/
-│   └── air_quality_forecasting_starter.ipynb      # Main training and evaluation notebook
-├── outputs/
-│   ├── checkpoints/
-│   │   └── best_model.h5                           # Saved model checkpoint
-│   ├── submission.csv                              # Final prediction submission
-│   └── submission_summary.md                       # Summary of the submission
-├── results/
-│   ├── experiments.csv                             # Logged experiments and metrics
-│   ├── experiments.md                              # Notes and observations
-│   └── project_summary.md                          # Overview of project progress
-├── scripts/
-│   ├── __pycache__/                                # Python cache files
-│   ├── data_utils.py                               # Data loading and preprocessing
-│   ├── features.py                                 # Feature engineering logic
-│   ├── models.py                                   # Model architecture definitions
-│   └── visualisation.py                            # Plotting and visualization utilities
-├── visuals/                                        # Visual outputs (plots, graphs, etc.)
-├── README.md                                       # Project description and setup guide
-├── package.json                                    # Node.js project config (if applicable)
-├── requirements.txt                                # Python dependencies
-├── sample_submission.csv                           # Submission format for reference
-├── test.csv                                        # Raw test dataset
-├── test_data_clean.py                              # Script for cleaning test data
-└── train.csv                                       # Raw training dataset
+``` — into your README:
 
+<pre lang="markdown"><code>## 📁 Project Structure ``` air-quality-forecasting/ ├── notebooks/ │ └── air_quality_forecasting_starter.ipynb # Main training and evaluation notebook ├── outputs/ │ ├── checkpoints/ │ │ └── best_model.h5 # Saved model checkpoint │ ├── submission.csv # Final prediction submission │ └── submission_summary.md # Summary of the submission ├── results/ │ ├── experiments.csv # Logged experiments and metrics │ ├── experiments.md # Notes and observations │ └── project_summary.md # Overview of project progress ├── scripts/ │ ├── __pycache__/ # Python cache files │ ├── data_utils.py # Data loading and preprocessing │ ├── features.py # Feature engineering logic │ ├── models.py # Model architecture definitions │ └── visualisation.py # Plotting and visualization utilities ├── visuals/ # Visual outputs (plots, graphs, etc.) ├── README.md # Project description and setup guide ├── package.json # Node.js project config (if applicable) ├── requirements.txt # Python dependencies ├── sample_submission.csv # Submission format for reference ├── test.csv # Raw test dataset ├── test_data_clean.py # Script for cleaning test data └── train.csv # Raw training dataset ```
 
 
 ## Dataset
