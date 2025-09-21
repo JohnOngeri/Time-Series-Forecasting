@@ -4,36 +4,34 @@ This project implements a comprehensive air quality forecasting system using var
 
 ## Project Structure
 
-\`\`\`
 air-quality-forecasting/
-├── data/
-│   ├── train.csv                    # Training dataset
-│   ├── test.csv                     # Test dataset
-│   └── sample_submission.csv        # Sample submission format
 ├── notebooks/
-│   └── 01_model_training.ipynb      # Main training notebook
-├── scripts/
-│   ├── data_utils.py               # Data preprocessing utilities
-│   ├── features.py                 # Feature engineering functions
-│   ├── models.py                   # Model architectures
-│   ├── train.py                    # Training pipeline
-│   └── submit.py                   # Submission generation
+│   └── air_quality_forecasting_starter.ipynb      # Main training and evaluation notebook
 ├── outputs/
-│   ├── submission.csv              # Final submission file
-│   └── checkpoints/                # Model checkpoints
+│   ├── checkpoints/
+│   │   └── best_model.h5                           # Saved model checkpoint
+│   ├── submission.csv                              # Final prediction submission
+│   └── submission_summary.md                       # Summary of the submission
 ├── results/
-│   ├── experiments.csv             # Experiment results
-│   └── experiments.md              # Experiment summary
-├── visuals/
-│   ├── loss_curves.png            # Training loss curves
-│   ├── residuals.png              # Residual analysis
-│   ├── actual_vs_pred.png         # Prediction comparison
-│   └── model_diagrams/            # Model architecture diagrams
-├── report/
-│   └── air_quality_report.pdf     # Final report
-├── README.md                       # This file
-└── requirements.txt               # Python dependencies
-\`\`\`
+│   ├── experiments.csv                             # Logged experiments and metrics
+│   ├── experiments.md                              # Notes and observations
+│   └── project_summary.md                          # Overview of project progress
+├── scripts/
+│   ├── __pycache__/                                # Python cache files
+│   ├── data_utils.py                               # Data loading and preprocessing
+│   ├── features.py                                 # Feature engineering logic
+│   ├── models.py                                   # Model architecture definitions
+│   └── visualisation.py                            # Plotting and visualization utilities
+├── visuals/                                        # Visual outputs (plots, graphs, etc.)
+├── README.md                                       # Project description and setup guide
+├── package.json                                    # Node.js project config (if applicable)
+├── requirements.txt                                # Python dependencies
+├── sample_submission.csv                           # Submission format for reference
+├── test.csv                                        # Raw test dataset
+├── test_data_clean.py                              # Script for cleaning test data
+└── train.csv                                       # Raw training dataset
+
+
 
 ## Dataset
 
